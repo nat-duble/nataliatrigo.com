@@ -1,5 +1,25 @@
 ---
 layout: page
-title: Books
+title: Libros
 permalink: /books
 ---
+
+<div class="book">
+  <img src="/assets/img/el-fin-del-verano.jpg" alt="El fin del verano" class="book-cover">
+  <div class="book-info">
+    <h2>El fin del verano</h2>
+    <p class="book-meta">Almadía, 2026</p>
+    <p class="book-blurb"></p>
+    <a href="https://editorialalmadia.com" class="book-link" target="_blank">Comprar</a>
+  </div>
+</div>
+
+<div class="book">
+  <img src="/assets/img/daughters-of-latin-america.jpg" alt="Daughters of Latin America" class="book-cover">
+  <div class="book-info">
+    <h2>Daughters of Latin America</h2>
+    <p class="book-meta">Ed. Sandra Guzmán — HarperCollins, 2023</p>
+    <p class="book-blurb"></p>
+    <a href="https://bookshop.org/p/books/daughters-of-latin-america-two-centuries-of-women-s-voices-sandra-guzman/19154455" class="book-link" target="_blank">Buy</a>
+  </div>
+</div>
