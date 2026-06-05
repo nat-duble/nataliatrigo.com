@@ -1,13 +1,19 @@
 <!doctype html>
 <html>
   {% include head.html %}
-  <body>
-    <div class="container">
-      {% include header.html %}
-      <div class="content-wrapper">
-        {{ content }}
+  <body class="layout-{{ page.layout }}">
+    <div class="page-wrapper">
+      <aside class="sidebar">
+        {% include header.html %}
+      </aside>
+      <div class="main-column">
+        <main class="content-wrapper">
+          {{ content }}
+        </main>
+        {% unless page.layout == "home" %}
+          {% include footer.html %}
+        {% endunless %}
       </div>
-      {% include footer.html %}
     </div>
   </body>
 </html>

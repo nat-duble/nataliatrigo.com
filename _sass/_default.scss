@@ -1,34 +1,51 @@
-/*
-  Site container
-*/
+$sidebar-width: 260px;
 
-.container {
-  width: $container-width;
-  margin-left: auto;
-  margin-right: auto;
+.page-wrapper {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
 }
-.container a {
+
+.page-wrapper a {
   text-decoration: underline;
 }
-.content-wrapper {
-  padding-top: $header-thickness+10px;
-  margin: auto;
-  display: block;
-  width: $container-width - 20px;
+
+.sidebar {
+  width: $sidebar-width;
+  flex-shrink: 0;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
 }
+
+.main-column {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrapper {
+  flex: 1;
+  padding: 30px 30px 30px 40px;
+}
+
 .content-wrapper h1 {
   margin: 20px 0px 5px;
 }
-@media (max-width: $container-width) {
-  .container {
-    width: 95vw;
-    margin-left: auto;
-    margin-right: auto;
+
+@media (max-width: $tablet-width) {
+  .page-wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
   }
   .content-wrapper {
-    padding-top: $header-thickness+10px;
-    margin: auto;
-    display: block;
-    width: 95vw;
+    padding: 20px 15px;
   }
 }
