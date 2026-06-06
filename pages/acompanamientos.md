@@ -13,7 +13,7 @@ permalink: /acompanamientos
   </div>
 </div>
 
-<p class="event-cities"><a href="mailto:info@nataliatrigo.com">info@nataliatrigo.com</a></p>
+<p><a href="mailto:info@nataliatrigo.com" class="acomp-contact">info@nataliatrigo.com</a></p>
 
 <hr class="bio-divider">
 
@@ -26,4 +26,4 @@ permalink: /acompanamientos
   </div>
 </div>
 
-<p class="event-cities"><a href="mailto:info@nataliatrigo.com">info@nataliatrigo.com</a></p>
+<p><a href="mailto:info@nataliatrigo.com" class="acomp-contact">info@nataliatrigo.com</a></p>
