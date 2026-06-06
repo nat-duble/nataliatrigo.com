@@ -100,6 +100,47 @@
     margin: 72px 0;
   }
 
+  .acomp-block {
+    margin-bottom: 0;
+  }
+
+  .acomp-heading {
+    font-size: 1.15rem;
+    font-weight: 300;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    margin: 0 0 28px;
+    color: #1a1a1a;
+  }
+
+  .acomp-body {
+    font-size: 0.88rem;
+    font-weight: 200;
+    letter-spacing: 0.06em;
+    line-height: 1.9;
+    color: #555;
+    margin: 0 0 36px;
+  }
+
+  .acomp-contact {
+    display: inline-block;
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #999;
+    text-decoration: none;
+
+    &:hover {
+      color: #b5451b;
+    }
+  }
+
+  .acomp-divider {
+    border: none;
+    border-top: 1px solid #e8e8e8;
+    margin: 60px 0;
+  }
+
   .contact-block {
     margin-bottom: 60px;
   }
@@ -185,6 +226,19 @@
     text-transform: uppercase;
     color: #999;
     margin: 0;
+
+    a {
+      font-size: inherit;
+      letter-spacing: inherit;
+      text-transform: inherit;
+      color: #999;
+      text-decoration: none;
+
+      &:hover {
+        color: #b5451b;
+        opacity: 1;
+      }
+    }
   }
 
   .event-dates {

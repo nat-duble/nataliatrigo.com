@@ -9,9 +9,9 @@ google-ID: ''
 menu:
 - {name: 'Bio',                url: 'bio'}
 - {name: 'Libros',             url: 'books'}
-- {name: 'Acompañamientos',    url: 'acompanamientos'}
 - {name: 'Eventos',            url: 'events'}
 - {name: 'Contacto',           url: 'contact'}
+- {name: 'Acompañamientos',    url: 'acompanamientos'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
