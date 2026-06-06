@@ -5,7 +5,7 @@ permalink: /bio
 page_class: page-bio
 ---
 
-<img src="https://images.unsplash.com/photo-1541542509806-6371b7b0a265?w=820&h=460&fit=crop&auto=format" alt="Natalia Trigo" class="bio-hero">
+<img src="https://images.unsplash.com/photo-1639018868033-f501b5a521bd?w=820&h=460&fit=crop&auto=format" alt="Natalia Trigo" class="bio-hero">
 
 <div class="bio-body">
   <p>Soy escritora y amante de los perros. Nací en México en 1990. Llevo más de quince años viviendo en distintas partes del mundo. Escribo sobre el desarraigo, la migración y las formas en que las heridas familiares y estructurales moldean los vínculos afectivos entre generaciones.</p>

@@ -60,6 +60,7 @@
     object-position: center top;
     display: block;
     margin: 0 0 64px;
+    filter: grayscale(100%);
   }
 
   .bio-body {
@@ -135,6 +136,23 @@
     }
   }
 
+  .acomp-image {
+    float: right;
+    width: 220px;
+    max-width: none;
+    margin: 0 0 24px 40px;
+    display: block;
+  }
+
+  .acomp-note {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 200;
+    letter-spacing: 0.04em;
+    color: #aaa;
+    margin: 8px 0 0;
+  }
+
   .acomp-divider {
     border: none;
     border-top: 1px solid #e8e8e8;
@@ -146,7 +164,7 @@
   }
 
   .contact-label {
-    font-size: 11px;
+    font-size: 13px;
     letter-spacing: 0.22em;
     text-transform: uppercase;
     color: #999;
@@ -189,6 +207,7 @@
 
   .event-section {
     margin-bottom: 60px;
+    margin-top: 32px;
   }
 
   .event-period {
