@@ -10,6 +10,15 @@
     max-width: 820px;
   }
 
+  .book-section-label {
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: #999;
+    margin: 0 0 28px;
+  }
+
   .book {
     display: flex;
     gap: 40px;

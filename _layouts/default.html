@@ -1,16 +1,31 @@
 <!doctype html>
 <html>
-  {% include head.html %}
-  <body class="layout-{{ page.layout }}">
-    <div class="page-wrapper">
-      <aside class="sidebar">
-        {% include header.html %}
-      </aside>
-      <div class="main-column">
-        <main class="content-wrapper">
-          {{ content }}
-        </main>
-      </div>
-    </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Natalia Trigo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;400&display=swap" rel="stylesheet">
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body { height: 100%; }
+      body {
+        font-family: 'Hanken Grotesk', sans-serif;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      .name {
+        font-size: 13px;
+        font-weight: 300;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: #1a1a1a;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="name">Natalia Trigo</p>
   </body>
 </html>
