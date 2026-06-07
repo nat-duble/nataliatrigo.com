@@ -4,7 +4,7 @@ layout: default
 
 <div class="page-content{% if page.page_class %} {{ page.page_class }}{% endif %}">
   <h1>
-    {{ page.title }}
+    {{ page.title }}{% if page.page_label %} <span class="page-label">{{ page.page_label }}</span>{% endif %}
   </h1>
   <article>
     {{ content }}
