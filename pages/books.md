@@ -4,8 +4,6 @@ title: Libros
 permalink: /books
 ---
 
-<p class="book-section-label">Novela</p>
-
 <div class="book">
   <img src="/assets/img/el-fin-del-verano.jpg" alt="El fin del verano" class="book-cover">
   <div class="book-info">
@@ -15,8 +13,6 @@ permalink: /books
     <a href="https://editorialalmadia.com" class="book-link" target="_blank">Comprar</a>
   </div>
 </div>
-
-<p class="book-section-label">Antologías</p>
 
 <div class="book">
   <img src="/assets/img/daughters-of-latin-america.jpg" alt="Daughters of Latin America" class="book-cover">
