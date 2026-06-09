@@ -9,7 +9,9 @@ hide_title: true
 <div class="book book--detail">
   <div class="book-gallery-col">
     <div class="book-photo-stack">
-      <img src="/assets/img/daughters-of-latin-america.jpg" alt="Daughters of Latin America">
+      <img src="/assets/img/daughters-new-1.jpg" alt="Daughters of Latin America">
+      <img src="/assets/img/daughters-new-2.jpg" alt="Daughters of Latin America — portada">
+      <img src="/assets/img/daughters-new-3.jpg" alt="Daughters of Latin America — páginas">
     </div>
   </div>
   <div class="book-info">
