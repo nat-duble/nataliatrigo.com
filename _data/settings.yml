@@ -8,7 +8,12 @@ google-ID: ''
 
 menu:
 - {name: 'Bio',                url: 'bio'}
-- {name: 'Libros',             url: 'books'}
+- name: 'Libros'
+  url: 'books'
+  children:
+  - {name: 'El fin del verano',          url: 'books/el-fin-del-verano', genre: 'novela'}
+  - {name: 'Daughters of Latin America', url: 'books/daughters',           genre: 'antología'}
+  - {name: 'El crimen',                  url: 'books/el-crimen',            genre: 'antología'}
 - {name: 'Eventos',            url: 'events'}
 - {name: 'Contacto',           url: 'contact'}
 - {name: 'Acompañamientos',    url: 'acompanamientos'}

@@ -3,9 +3,11 @@ layout: default
 ---
 
 <div class="page-content{% if page.page_class %} {{ page.page_class }}{% endif %}">
+  {% unless page.hide_title %}
   <h1>
     {{ page.title }}{% if page.page_label %} <span class="page-label">{{ page.page_label }}</span>{% endif %}
   </h1>
+  {% endunless %}
   <article>
     {{ content }}
   </article>

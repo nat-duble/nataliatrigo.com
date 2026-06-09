@@ -5,6 +5,15 @@ permalink: /events
 ---
 
 <div class="event-section">
+  <p class="event-period">Septiembre 2026</p>
+  <div class="event">
+    <h2 class="event-title">20° Fiesta del Libro y la Cultura de Medellín</h2>
+    <p class="event-subtitle">11 — 20 de septiembre</p>
+    <p class="event-cities">Jardín Botánico · Medellín</p>
+  </div>
+</div>
+
+<div class="event-section">
   <p class="event-period">Agosto 2026</p>
   <div class="event">
     <h2 class="event-title">El fin del verano</h2>

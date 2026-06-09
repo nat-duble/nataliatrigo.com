@@ -12,6 +12,32 @@
 
   &.page-books {
     max-width: 760px;
+
+    .book-subnav {
+      display: flex;
+      gap: 36px;
+      margin-bottom: 56px;
+
+      a {
+        font-size: 10px;
+        font-weight: 300;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #999;
+
+        &:hover {
+          color: #1a1a1a;
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  &.page-fragmento-verano {
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .book {
@@ -47,6 +73,24 @@
       letter-spacing: 0.06em;
     }
 
+    .book-prize {
+      font-size: 11px;
+      font-weight: 300;
+      letter-spacing: 0.04em;
+      color: #b5451b;
+      font-style: italic;
+      margin: 0 0 14px;
+    }
+
+    .book-genre {
+      margin: 0 0 8px;
+      font-size: 10px;
+      font-weight: 300;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #aaa;
+    }
+
     .book-meta {
       margin: 0 0 20px;
       color: #999;
@@ -78,6 +122,61 @@
 
       &--fragment {
         color: #999;
+      }
+    }
+  }
+
+  .book--detail {
+    gap: 64px;
+
+    .book-gallery-col {
+      width: 300px;
+      flex-shrink: 0;
+
+      @media (max-width: 620px) {
+        width: 100%;
+      }
+    }
+
+    .book-cover-main {
+      width: 100%;
+      display: block;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.16);
+      margin-bottom: 10px;
+    }
+
+    .book-cover-placeholder {
+      width: 100%;
+      aspect-ratio: 2 / 3;
+      background: #f0eeeb;
+      margin-bottom: 10px;
+    }
+
+    .book-thumbs {
+      display: flex;
+      gap: 6px;
+      margin-top: 12px;
+
+      img {
+        flex: 1;
+        min-width: 0;
+        height: 72px;
+        object-fit: cover;
+        display: block;
+        filter: grayscale(15%);
+        transition: filter 0.2s ease;
+      }
+    }
+
+    .book-info {
+      padding-top: 0;
+
+      h2 {
+        font-size: 1.3rem;
+        font-weight: 200;
+        letter-spacing: 0.08em;
+        text-transform: none;
+        margin-bottom: 6px;
       }
     }
   }
@@ -163,6 +262,15 @@
     margin-top: 48px;
   }
 
+  .fragmento-chapter {
+    font-size: 0.7rem;
+    font-weight: 300;
+    letter-spacing: 0.22em;
+    color: #ccc;
+    margin-bottom: 48px;
+    text-align: center;
+  }
+
   .fragmento-continues {
     font-size: 11px;
     font-weight: 300;
@@ -184,6 +292,88 @@
         color: #b5451b;
       }
     }
+  }
+
+  .ebook-reader {
+    max-width: none;
+  }
+
+  .ebook-page {
+    display: none;
+    padding: 52px 44px 60px;
+    background: #faf8f5;
+    box-shadow: 0 2px 24px rgba(0,0,0,0.05), 0 0 0 1px rgba(0,0,0,0.07);
+    min-height: 400px;
+
+    &.ebook-page--active {
+      display: block;
+      animation: ebook-fadein 0.18s ease;
+    }
+
+    .fragmento-chapter {
+      margin-bottom: 48px;
+    }
+
+    p {
+      font-size: 0.93rem;
+      font-weight: 300;
+      letter-spacing: 0.04em;
+      line-height: 1.88;
+      color: #1a1a1a;
+      margin: 0 0 1.6em;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    @media (max-width: 600px) {
+      padding: 36px 28px 44px;
+      min-height: 280px;
+    }
+  }
+
+  @keyframes ebook-fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  .ebook-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 24px;
+  }
+
+  .ebook-btn {
+    background: none;
+    border: none;
+    font-family: $display-font-family;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #1a1a1a;
+    cursor: pointer;
+    padding: 8px;
+    line-height: 1;
+
+    &:hover {
+      color: #b5451b;
+    }
+
+    &:disabled {
+      color: #ddd;
+      cursor: default;
+    }
+  }
+
+  .ebook-counter {
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.18em;
+    color: #bbb;
+    min-width: 48px;
+    text-align: center;
   }
 
   .bio-divider {

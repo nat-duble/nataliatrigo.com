@@ -4,7 +4,18 @@
   </h3>
   <nav class="menu-list">
     {% for item in site.data.settings.menu %}
-      <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link">{{ item.name }}</a>
+      {% if item.children %}
+        {% assign item_path = '/' | append: item.url %}
+        <button class="menu-link menu-link--parent js-menu-toggle" type="button">{{ item.name }}</button>
+        <div class="menu-sub{% if page.url contains item_path %} menu-sub--open{% endif %}">
+          {% for child in item.children %}
+            {% assign child_path = '/' | append: child.url %}
+            <a href="{{ site.github.url }}/{{ child.url }}" class="menu-sub-link{% if page.url contains child_path %} menu-sub-link--active{% endif %}">{{ child.name }}</a>
+          {% endfor %}
+        </div>
+      {% else %}
+        <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link">{{ item.name }}</a>
+      {% endif %}
     {% endfor %}
   </nav>
 </header>

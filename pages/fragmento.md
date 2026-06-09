@@ -3,9 +3,11 @@ layout: page
 title: La cuidadora
 permalink: /fragmento
 page_label: Fragmento
+page_class: page-fragmento-verano
 ---
 
-<div class="bio-body">
+<div class="ebook-reader">
+<div class="ebook-page ebook-page--active">
 
 <p>Pártela, le dice, y pone su índice enjuto sobre el mazo de cartas que ha estado mezclando el último cuarto de hora. Luisa responde que no, señora Maca, que no, pero la vieja insiste, y le pellizca el brazo cuando se levanta y le dice venga, anda, pártela. Antes la vieja la miraba, se hacía la concentrada en la baraja pero Luisa sabía que la analizaba. Con sus uñas rojas, descarapeladas de las puntas, y los ojos llenos del rímel que hace que la vecina le compre con el dinero que le dejan para las emergencias.</p>
 
@@ -19,4 +21,5 @@ page_label: Fragmento
 
 <p class="fragmento-continues">El cuento completo aparece en <a href="https://bookshop.org/p/books/daughters-of-latin-america-two-centuries-of-women-s-voices-sandra-guzman/19154455" target="_blank"><em>Daughters of Latin America</em></a> — HarperCollins, 2023</p>
 
+</div>
 </div>

@@ -12,5 +12,13 @@
         </main>
       </div>
     </div>
+    <script>
+      document.querySelectorAll('.js-menu-toggle').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var sub = this.nextElementSibling;
+          if (sub) sub.classList.toggle('menu-sub--open');
+        });
+      });
+    </script>
   </body>
 </html>
