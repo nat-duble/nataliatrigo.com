@@ -8,9 +8,8 @@ hide_title: true
 
 <div class="book book--detail">
   <div class="book-gallery-col">
-    <img src="/assets/img/daughters-of-latin-america.jpg" alt="Daughters of Latin America" class="book-cover-main">
-    <div class="book-thumbs">
-      <!-- añadir fotos: <img src="/assets/img/foto.jpg" alt="" class="book-thumb"> -->
+    <div class="book-photo-stack">
+      <img src="/assets/img/daughters-of-latin-america.jpg" alt="Daughters of Latin America">
     </div>
   </div>
   <div class="book-info">

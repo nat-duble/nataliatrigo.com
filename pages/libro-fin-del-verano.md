@@ -8,12 +8,16 @@ hide_title: true
 
 <div class="book book--detail">
   <div class="book-gallery-col">
-    <img src="/assets/img/el-fin-del-verano.jpg" alt="El fin del verano" class="book-cover-main">
-    <div class="book-thumbs">
-      <img src="/assets/img/efv-foto-5.jpg" alt="El fin del verano — portada">
+    <div class="book-photo-stack">
+      <img src="/assets/img/el-fin-del-verano.jpg" alt="El fin del verano — portada">
+      <img src="/assets/img/efv-foto-5.jpg" alt="El fin del verano">
       <img src="/assets/img/efv-foto-4.jpg" alt="El fin del verano — portadilla">
-      <img src="/assets/img/efv-foto-7.jpg" alt="El fin del verano — interior">
+      <img src="/assets/img/efv-foto-7.jpg" alt="El fin del verano — páginas">
+      <img src="/assets/img/efv-foto-6.jpg" alt="El fin del verano — portadilla">
       <img src="/assets/img/efv-foto-2.jpg" alt="El fin del verano — agradecimientos">
+      <img src="/assets/img/efv-foto-3.jpg" alt="El fin del verano — interior">
+      <img src="/assets/img/efv-foto-8.jpg" alt="El fin del verano — agradecimientos">
+      <img src="/assets/img/efv-foto-1.jpg" alt="El fin del verano — colofón">
     </div>
   </div>
   <div class="book-info">
