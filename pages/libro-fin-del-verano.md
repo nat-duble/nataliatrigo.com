@@ -19,7 +19,7 @@ hide_title: true
     <p class="book-meta">Almadía, 2026 · Premio Internacional de Literatura Aura Estrada</p>
     <p class="book-blurb">Escrita desde la perspectiva de una niña de siete años, con un lenguaje que mezcla la melancolía y el desparpajo, <strong><em>El fin del verano</em> es una novela sobre el desarraigo y la cercanía confusa, sobre la forma en que las heridas familiares y estructurales se transmiten de una generación a otra.</strong></p>
     <p class="book-blurb">Una madrugada, Lara es trasladada abruptamente por su madre de un estado a otro de Estados Unidos. En medio de un contexto social y familiar incierto, conoce por primera vez a su abuelo y a un niño temerario con quien irá habitando los vacíos que los adultos les han dejado.</p>
-    <p class="book-blurb"><em>El fin del verano</em> narra lo que significa crecer en un mundo sin descanso. Y cómo los niños se hacen cargo, con sus propias herramientas y hasta las últimas consecuencias, de lo que los adultos no pueden. Una novela sobre la autonomía en un entorno donde parece que nada nos pertenece.</p>
+    <p class="book-blurb"><strong><em>El fin del verano</em> narra lo que significa crecer en un mundo sin descanso. Y cómo los niños se hacen cargo, con sus propias herramientas y hasta las últimas consecuencias, de lo que los adultos no pueden.</strong> Una novela sobre la autonomía en un entorno donde parece que nada nos pertenece.</p>
     <a href="/fragmento-verano" class="book-link book-link--fragment">Leer un fragmento</a>
     <a href="https://editorialalmadia.com" class="book-link" target="_blank">Comprar</a>
   </div>
