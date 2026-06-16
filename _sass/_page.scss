@@ -71,6 +71,15 @@
       font-size: 1.4rem;
       font-weight: 300;
       letter-spacing: 0.06em;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+
+        &:hover {
+          opacity: 0.6;
+        }
+      }
     }
 
     .book-prize {
@@ -104,6 +113,12 @@
         color: #999;
         margin-bottom: 24px;
       }
+    }
+
+    .book-blurb-en-block {
+      margin-top: 28px;
+      padding-top: 24px;
+      border-top: 1px solid #e0ddd9;
     }
 
     .book-link {
@@ -155,6 +170,18 @@
           filter: grayscale(0%);
         }
       }
+
+      .book-photo-pair {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+
+      .photo-zoom-trigger {
+        display: block;
+        cursor: zoom-in;
+      }
+
     }
 
     .book-cover-placeholder {
@@ -575,5 +602,68 @@
         opacity: 0.4;
       }
     }
+  }
+}
+
+.book-endorsements {
+  margin-top: 80px;
+  padding-top: 56px;
+  border-top: 1px solid #e0ddd9;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+
+  @media (max-width: 620px) {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+}
+
+.book-endorsement {
+  blockquote {
+    margin: 0 0 14px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.85;
+    color: #666;
+  }
+
+  cite {
+    font-style: normal;
+    font-size: 10px;
+    font-weight: 300;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #aaa;
+  }
+}
+
+.photo-lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+
+  &:target {
+    display: flex;
+  }
+
+  .photo-lightbox-bg {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.93);
+    cursor: zoom-out;
+  }
+
+  img {
+    position: relative;
+    z-index: 1;
+    max-width: 88vw;
+    max-height: 88vh;
+    object-fit: contain;
+    filter: none;
   }
 }
