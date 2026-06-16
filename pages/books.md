@@ -20,7 +20,7 @@ page_class: page-books
 </div>
 
 <div class="book" id="el-crimen">
-  <img src="/assets/img/crimen-new-1.jpg" alt="El crimen" class="book-cover">
+  <img src="/assets/img/crimen-new-3.jpg" alt="El crimen" class="book-cover">
   <div class="book-info">
     <h2><a href="/books/el-crimen">El crimen</a></h2>
     <p class="book-genre">Antología</p>
