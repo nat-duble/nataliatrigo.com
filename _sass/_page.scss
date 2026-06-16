@@ -10,6 +10,10 @@
     max-width: 820px;
   }
 
+  &.page-acomp {
+    max-width: 820px;
+  }
+
   &.page-books {
     max-width: 900px;
 
@@ -424,61 +428,86 @@
     margin: 72px 0;
   }
 
-  .acomp-block {
-    margin-bottom: 0;
+  .acomp-bilingual {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 52px;
+    align-items: start;
+
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
   }
 
-  .acomp-heading {
-    font-size: 1.15rem;
-    font-weight: 300;
-    letter-spacing: 0.04em;
-    line-height: 1.5;
-    margin: 0 0 28px;
-    color: #1a1a1a;
+  .acomp-col {
+    @media (max-width: 600px) {
+      &:last-child {
+        margin-top: 64px;
+        padding-top: 48px;
+        border-top: 1px solid #e8e8e8;
+      }
+    }
   }
 
-  .acomp-body {
-    font-size: 0.95rem;
+  .acomp-intro {
+    font-size: 1.1rem;
     font-weight: 300;
-    letter-spacing: 0;
+    line-height: 1.75;
+    color: #111;
+    margin: 0 0 48px;
+  }
+
+  .acomp-moments {
+    margin-bottom: 52px;
+  }
+
+  .acomp-moment {
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+    margin-bottom: 32px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .acomp-moment-label {
+    display: block;
+    font-size: 9px;
+    font-weight: 400;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: #aaa;
+    margin-bottom: 8px;
+  }
+
+  .acomp-moment-body {
+    font-size: 0.875rem;
+    font-weight: 300;
     line-height: 1.85;
-    color: #555;
-    margin: 0 0 36px;
+    color: #444;
+    margin: 0;
   }
 
-  .acomp-contact {
+  .acomp-contact-note {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #aaa;
+    margin: 0 0 12px;
+  }
+
+  .acomp-email {
     display: inline-block;
     font-size: 10px;
+    font-weight: 300;
     letter-spacing: 0.14em;
-    color: #999;
+    color: #1a1a1a;
     text-decoration: none;
 
     &:hover {
       color: #b5451b;
     }
-  }
-
-  .acomp-image {
-    float: right;
-    width: 220px;
-    max-width: none;
-    margin: 0 0 24px 40px;
-    display: block;
-  }
-
-  .acomp-note {
-    font-size: 12px;
-    font-style: italic;
-    font-weight: 200;
-    letter-spacing: 0.04em;
-    color: #aaa;
-    margin: 8px 0 0;
-  }
-
-  .acomp-divider {
-    border: none;
-    border-top: 1px solid #e8e8e8;
-    margin: 60px 0;
   }
 
   .contact-block {

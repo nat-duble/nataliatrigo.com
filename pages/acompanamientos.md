@@ -2,28 +2,21 @@
 layout: page
 title: Acompañamientos
 permalink: /acompanamientos
+page_class: page-acomp
 ---
 
-<div class="event-section">
-  <div class="event">
-    <h2 class="event-title">Narrativa</h2>
-    <p class="event-cities">Novela &nbsp;·&nbsp; Cuento</p>
-    <p class="event-subtitle">Sesiones individuales para desarrollar proyectos literarios en cualquiera de sus etapas.</p>
-    <p class="acomp-note">Trabajo por proyecto</p>
+<div class="acomp-bilingual">
+  <div class="acomp-col">
+    <p class="acomp-intro">Acompaño procesos de escritura. Trabajo con quien quiera escribir — empezar algo nuevo, avanzar en un proyecto en marcha, o terminar lo que lleva tiempo esperando cerrarse.</p>
+
+    <p class="acomp-contact-note">Las sesiones son individuales y se organizan proyecto por proyecto.</p>
+    <a href="mailto:info@nataliatrigo.com" class="acomp-email">info@nataliatrigo.com</a>
+  </div>
+
+  <div class="acomp-col">
+    <p class="acomp-intro">I accompany writing processes. I work with anyone who wants to write — to start something new, to continue a project already in motion, or to finish what has been waiting to be closed.</p>
+
+    <p class="acomp-contact-note">Sessions are one-on-one and organized project by project.</p>
+    <a href="mailto:info@nataliatrigo.com" class="acomp-email">info@nataliatrigo.com</a>
   </div>
 </div>
-
-<p><a href="mailto:info@nataliatrigo.com" class="acomp-contact">info@nataliatrigo.com</a></p>
-
-<hr class="bio-divider">
-
-<div class="event-section">
-  <div class="event">
-    <h2 class="event-title">Narrative</h2>
-    <p class="event-cities">Novel &nbsp;·&nbsp; Short Story</p>
-    <p class="event-subtitle">Individual sessions to develop literary projects at any stage.</p>
-    <p class="acomp-note">Project by project</p>
-  </div>
-</div>
-
-<p><a href="mailto:info@nataliatrigo.com" class="acomp-contact">info@nataliatrigo.com</a></p>
