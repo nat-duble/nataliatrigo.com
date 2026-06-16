@@ -5,7 +5,7 @@ permalink: /bio
 page_class: page-bio
 ---
 
-<img src="https://images.unsplash.com/photo-1639018868033-f501b5a521bd?w=820&h=460&fit=crop&auto=format" alt="Natalia Trigo" class="bio-hero">
+<img src="/assets/img/natalia.jpg" alt="Natalia Trigo" class="bio-hero">
 
 <div class="bio-bilingual">
   <div class="bio-col">
