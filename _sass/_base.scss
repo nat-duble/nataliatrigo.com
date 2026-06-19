@@ -19,7 +19,7 @@ dl, dd, ol, ul, figure {
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-family: $heading-font-family;
-  font-weight: 200;
+  font-weight: 300;
   line-height: 1.15;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -46,7 +46,7 @@ h4, h5, h6 {
 body {
   font-family: $base-font-family;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 21px;
   color: #1a1a1a;
   background-color: #fff;
   -webkit-font-smoothing: antialiased;
