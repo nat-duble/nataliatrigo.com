@@ -3,40 +3,40 @@
 .layout-home .content-wrapper {
   display: flex;
   align-items: center;
-  height: 100vh;
+  min-height: calc(100vh - 88px);
 }
 
 .home-statement {
-  padding: 48px 56px;
+  padding: 0 52px;
+  max-width: 680px;
 
   p {
     font-weight: 300;
     letter-spacing: 0.01em;
     line-height: 1.8;
     margin: 0;
-    max-width: 480px;
   }
 
   .statement-es {
-    font-size: 1.15rem;
+    font-size: 1.4rem;
     color: #1a1a1a;
     margin-bottom: 16px;
   }
 
   .statement-en {
-    font-size: 0.95rem;
+    font-size: 1.1rem;
     color: #999;
   }
 }
 
 @media (max-width: $tablet-width) {
   .layout-home .content-wrapper {
-    height: auto;
-    align-items: flex-start;
+    min-height: auto;
+    padding-top: 48px;
   }
 
   .home-statement {
-    padding: 32px 24px 52px;
+    padding: 0 24px 52px;
   }
 }
 

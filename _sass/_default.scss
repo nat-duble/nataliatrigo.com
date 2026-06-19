@@ -1,53 +1,13 @@
 @use 'variables' as *;
 
-$sidebar-width: 260px;
-
-.page-wrapper {
-  width: 100%;
-  display: flex;
-  min-height: 100vh;
-}
-
-.page-wrapper a {
-  text-decoration: underline;
-}
-
-.sidebar {
-  width: $sidebar-width;
-  flex-shrink: 0;
-  position: sticky;
-  top: 0;
-  height: 100vh;
-  overflow-y: auto;
-}
-
-.main-column {
-  flex: 1;
-  min-width: 0;
-  display: flex;
-  flex-direction: column;
-}
+$header-height: 88px;
 
 .content-wrapper {
-  flex: 1;
-  padding: 30px 30px 30px 40px;
-}
-
-.content-wrapper h1 {
-  margin: 20px 0px 5px;
+  padding-top: $header-height;
 }
 
 @media (max-width: $tablet-width) {
-  .page-wrapper {
-    width: 100%;
-    flex-direction: column;
-  }
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: static;
-  }
   .content-wrapper {
-    padding: 20px 15px;
+    padding-top: 70px;
   }
 }

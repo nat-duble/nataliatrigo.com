@@ -2,23 +2,18 @@
 <html>
   {% include head.html %}
   <body class="layout-{{ page.layout }}">
-    <div class="page-wrapper">
-      <aside class="sidebar">
-        {% include header.html %}
-      </aside>
-      <div class="main-column">
-        <main class="content-wrapper">
-          {{ content }}
-        </main>
+    <header class="site-header">
+      <div class="site-header-left">
+        <a href="{{ site.github.url }}/" class="site-title">{{ site.title }}</a>
       </div>
-    </div>
-    <script>
-      document.querySelectorAll('.js-menu-toggle').forEach(function(btn) {
-        btn.addEventListener('click', function() {
-          var sub = this.nextElementSibling;
-          if (sub) sub.classList.toggle('menu-sub--open');
-        });
-      });
-    </script>
+      <nav class="menu-list">
+        {% for item in site.data.settings.menu %}
+          <a href="{{ site.github.url }}/{{ item.url }}" class="menu-link{% if page.url contains item.url %} menu-link--active{% endif %}">{{ item.name }}</a>
+        {% endfor %}
+      </nav>
+    </header>
+    <main class="content-wrapper">
+      {{ content }}
+    </main>
   </body>
 </html>
