@@ -74,7 +74,7 @@
         display: flex;
         gap: 52px;
         align-items: flex-start;
-        margin-bottom: 52px;
+        margin-bottom: 72px;
 
         &--reverse {
           flex-direction: row-reverse;
@@ -797,32 +797,32 @@
 }
 
 .book-endorsements {
-  margin-top: 80px;
-  padding-top: 56px;
+  margin-top: 48px;
+  padding-top: 40px;
   border-top: 1px solid #e0ddd9;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 56px;
+  gap: 64px;
 
   @media (max-width: 620px) {
     grid-template-columns: 1fr;
-    gap: 36px;
+    gap: 40px;
   }
 }
 
 .book-endorsement {
   blockquote {
-    margin: 0 0 14px;
+    margin: 0 0 16px;
     font-style: italic;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.15rem;
     line-height: 1.85;
-    color: #666;
+    color: #555;
   }
 
   cite {
     font-style: normal;
-    font-size: 10px;
+    font-size: 11px;
     font-weight: 300;
     letter-spacing: 0.18em;
     text-transform: uppercase;
