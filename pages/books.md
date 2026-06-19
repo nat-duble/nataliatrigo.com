@@ -54,6 +54,7 @@ hide_title: true
     <img src="/assets/img/daughters-new-2.jpg" alt="Daughters of Latin America" class="book-cover">
     <div class="book-info">
       <p class="book-blurb">Ensayos, poesía y discursos de más de 140 escritoras latinas de todo el mundo. Una resurrección de la herencia literaria ancestral y una celebración de las voces que la continúan. Incluye el cuento «La cuidadora».</p>
+      <a href="/fragmento" class="book-link book-link--fragment book-link--primary">Leer un fragmento</a>
       <a href="https://bookshop.org/p/books/daughters-of-latin-america-two-centuries-of-women-s-voices-sandra-guzman/19154455" class="book-link book-link--primary" target="_blank">Comprar</a>
     </div>
   </div>
@@ -61,6 +62,7 @@ hide_title: true
     <img src="/assets/img/daughters-new-1.jpg" alt="Daughters of Latin America — lomo" class="book-spine">
     <div class="book-info">
       <p class="book-blurb book-blurb--en">Essays, poetry, and speeches by over 140 Latine women writers from across the globe. A resurrection of ancestral literary inheritance and a celebration of rising voices. Includes the author's story "La cuidadora."</p>
+      <a href="/fragmento" class="book-link book-link--fragment book-link--primary">Read an excerpt</a>
       <a href="https://bookshop.org/p/books/daughters-of-latin-america-two-centuries-of-women-s-voices-sandra-guzman/19154455" class="book-link book-link--primary" target="_blank">Buy</a>
     </div>
   </div>
