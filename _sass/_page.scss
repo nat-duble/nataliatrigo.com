@@ -62,7 +62,14 @@
           font-size: 1.8rem;
           font-weight: 300;
           letter-spacing: 0.06em;
-          margin: 0 0 10px;
+          margin: 0 0 4px;
+        }
+
+        .book-genre {
+          font-size: 12px;
+          letter-spacing: 0.18em;
+          color: #999;
+          margin: 0 0 6px;
         }
 
         .book-meta {
@@ -157,9 +164,9 @@
       margin: 0 0 8px;
       font-size: 10px;
       font-weight: 300;
-      letter-spacing: 0.18em;
+      letter-spacing: 0.22em;
       text-transform: uppercase;
-      color: #aaa;
+      color: #bbb;
     }
 
     .book-meta {

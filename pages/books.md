@@ -58,7 +58,7 @@ hide_title: true
     </div>
   </div>
   <div class="book-hero-row book-hero-row--reverse">
-    <img src="/assets/img/daughters-new-3.jpg" alt="Daughters of Latin America — interior" class="book-spine">
+    <img src="/assets/img/daughters-new-1.jpg" alt="Daughters of Latin America — lomo" class="book-spine">
     <div class="book-info">
       <p class="book-blurb book-blurb--en">Essays, poetry, and speeches by over 140 Latine women writers from across the globe. A resurrection of ancestral literary inheritance and a celebration of rising voices. Includes the author's story "La cuidadora."</p>
       <a href="https://bookshop.org/p/books/daughters-of-latin-america-two-centuries-of-women-s-voices-sandra-guzman/19154455" class="book-link book-link--primary" target="_blank">Buy</a>
