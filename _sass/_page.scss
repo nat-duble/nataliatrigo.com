@@ -7,7 +7,7 @@
   padding: 0px 10px 10px;
 
   &.page-bio {
-    max-width: 560px;
+    max-width: 720px;
   }
 
   &.page-acomp {
@@ -232,14 +232,17 @@
   .bio-hero {
     display: block;
     width: 100%;
-    height: 440px;
+    max-width: 580px;
+    height: 480px;
     object-fit: cover;
-    object-position: center top;
-    margin: 32px 0 48px;
-    filter: grayscale(100%);
+    object-position: center 20%;
+    margin: 48px auto 72px;
+    filter: none;
 
     @media (max-width: $tablet-width) {
-      height: 300px;
+      max-width: 100%;
+      height: 340px;
+      margin: 32px 0 52px;
     }
   }
 
@@ -299,8 +302,8 @@
   }
 
   .bio-en {
-    margin-top: 48px;
-    padding-top: 44px;
+    margin-top: 72px;
+    padding-top: 64px;
     border-top: 1px solid #e8e8e8;
   }
 
