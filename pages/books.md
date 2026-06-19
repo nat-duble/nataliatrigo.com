@@ -75,7 +75,7 @@ hide_title: true
     <p class="book-meta">El Zopilote Rey, 2023 · Ed. Guillermo Santos</p>
   </div>
   <div class="book-hero-row">
-    <img src="/assets/img/crimen-new-1.jpg" alt="El crimen" class="book-cover">
+    <img src="/assets/img/crimen-new-3.jpg" alt="El crimen" class="book-cover">
     <div class="book-info">
       <p class="book-blurb">Antología de cuento negro reunida bajo la marca de lo criminal. Trece cuentos, trece ilustraciones originales de Jonathan Barbieri. Incluye «El cómplice».</p>
       <a href="/fragmento-crimen" class="book-link book-link--fragment book-link--primary">Leer un fragmento</a>
