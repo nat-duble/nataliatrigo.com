@@ -9,6 +9,7 @@ hide_title: true
 <div class="book book--hero" id="el-fin-del-verano">
   <div class="book-hero-header">
     <h2>El fin del verano</h2>
+    <p class="book-genre">Novela</p>
     <p class="book-meta">Almadía, 2026 · Premio Internacional de Literatura Aura Estrada</p>
   </div>
   <div class="book-hero-row">
@@ -43,24 +44,46 @@ hide_title: true
   </div>
 </div>
 
-<div class="book" id="daughters">
-  <img src="/assets/img/daughters-of-latin-america.jpg" alt="Daughters of Latin America" class="book-cover">
-  <div class="book-info">
+<div class="book book--hero" id="daughters">
+  <div class="book-hero-header">
     <h2>Daughters of Latin America</h2>
     <p class="book-genre">Antología</p>
     <p class="book-meta">HarperCollins, 2023 · Ed. Sandra Guzmán</p>
-    <p class="book-blurb">Ensayos, poesía y discursos de más de 140 escritoras latinas de todo el mundo. Incluye el cuento «La cuidadora».</p>
-    <a href="https://bookshop.org/p/books/daughters-of-latin-america-two-centuries-of-women-s-voices-sandra-guzman/19154455" class="book-link" target="_blank">Comprar</a>
+  </div>
+  <div class="book-hero-row">
+    <img src="/assets/img/daughters-new-2.jpg" alt="Daughters of Latin America" class="book-cover">
+    <div class="book-info">
+      <p class="book-blurb">Ensayos, poesía y discursos de más de 140 escritoras latinas de todo el mundo. Una resurrección de la herencia literaria ancestral y una celebración de las voces que la continúan. Incluye el cuento «La cuidadora».</p>
+      <a href="https://bookshop.org/p/books/daughters-of-latin-america-two-centuries-of-women-s-voices-sandra-guzman/19154455" class="book-link book-link--primary" target="_blank">Comprar</a>
+    </div>
+  </div>
+  <div class="book-hero-row book-hero-row--reverse">
+    <img src="/assets/img/daughters-new-3.jpg" alt="Daughters of Latin America — interior" class="book-spine">
+    <div class="book-info">
+      <p class="book-blurb book-blurb--en">Essays, poetry, and speeches by over 140 Latine women writers from across the globe. A resurrection of ancestral literary inheritance and a celebration of rising voices. Includes the author's story "La cuidadora."</p>
+      <a href="https://bookshop.org/p/books/daughters-of-latin-america-two-centuries-of-women-s-voices-sandra-guzman/19154455" class="book-link book-link--primary" target="_blank">Buy</a>
+    </div>
   </div>
 </div>
 
-<div class="book" id="el-crimen">
-  <img src="/assets/img/crimen-new-3.jpg" alt="El crimen" class="book-cover">
-  <div class="book-info">
+<div class="book book--hero" id="el-crimen">
+  <div class="book-hero-header">
     <h2>El crimen</h2>
     <p class="book-genre">Antología</p>
     <p class="book-meta">El Zopilote Rey, 2023 · Ed. Guillermo Santos</p>
-    <p class="book-blurb">Antología de cuento negro. Trece cuentos, trece ilustraciones de Jonathan Barbieri. Incluye «El cómplice».</p>
-    <a href="/fragmento-crimen" class="book-link book-link--fragment">Leer un fragmento</a>
+  </div>
+  <div class="book-hero-row">
+    <img src="/assets/img/crimen-new-1.jpg" alt="El crimen" class="book-cover">
+    <div class="book-info">
+      <p class="book-blurb">Antología de cuento negro reunida bajo la marca de lo criminal. Trece cuentos, trece ilustraciones originales de Jonathan Barbieri. Incluye «El cómplice».</p>
+      <a href="/fragmento-crimen" class="book-link book-link--fragment book-link--primary">Leer un fragmento</a>
+    </div>
+  </div>
+  <div class="book-hero-row book-hero-row--reverse">
+    <img src="/assets/img/crimen-new-2.jpg" alt="El crimen — interior" class="book-spine">
+    <div class="book-info">
+      <p class="book-blurb book-blurb--en">A noir anthology gathered under the mark of the criminal. Thirteen stories, thirteen original illustrations by Jonathan Barbieri. Includes the author's story "El cómplice."</p>
+      <a href="/fragmento-crimen" class="book-link book-link--fragment book-link--primary">Read an excerpt</a>
+    </div>
   </div>
 </div>
