@@ -48,16 +48,74 @@
     display: flex;
     gap: 56px;
     align-items: flex-start;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
+
+    &--hero {
+      flex-direction: column;
+      gap: 0;
+      margin-bottom: 120px;
+
+      .book-hero-header {
+        margin-bottom: 40px;
+
+        h2 {
+          font-size: 1.8rem;
+          font-weight: 300;
+          letter-spacing: 0.06em;
+          margin: 0 0 10px;
+        }
+
+        .book-meta {
+          margin: 0;
+        }
+      }
+
+      .book-hero-row {
+        display: flex;
+        gap: 52px;
+        align-items: flex-start;
+        margin-bottom: 52px;
+
+        &--reverse {
+          flex-direction: row-reverse;
+        }
+
+        .book-cover,
+        .book-spine {
+          width: 42%;
+          flex-shrink: 0;
+          display: block;
+          height: auto;
+        }
+
+        .book-cover {
+          box-shadow: 0 8px 40px rgba(0,0,0,0.16);
+        }
+
+        .book-info {
+          flex: 1;
+          min-width: 0;
+        }
+
+        @media (max-width: 620px) {
+          flex-direction: column;
+          gap: 28px;
+
+          &--reverse { flex-direction: column; }
+          .book-cover, .book-spine { width: 100%; }
+        }
+      }
+    }
 
     @media (max-width: 620px) {
       flex-direction: column;
       gap: 28px;
     }
+
   }
 
   .book-cover {
-    width: 220px;
+    width: 240px;
     flex-shrink: 0;
     box-shadow: 0 8px 40px rgba(0,0,0,0.16);
 
@@ -133,6 +191,11 @@
       text-decoration: none;
       color: #1a1a1a;
       margin-bottom: 10px;
+
+      &--primary {
+        font-size: 12px;
+        margin-bottom: 12px;
+      }
 
       &:hover {
         color: #b5451b;
@@ -382,7 +445,7 @@
     }
 
     p {
-      font-size: 0.95rem;
+      font-size: 20px;
       font-weight: 300;
       letter-spacing: 0;
       line-height: 1.85;
