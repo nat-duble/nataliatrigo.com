@@ -16,7 +16,7 @@ menu:
   - {name: 'El crimen',                  url: 'books/el-crimen',            genre: 'antología'}
 - {name: 'Eventos',            url: 'events'}
 - {name: 'Contacto',           url: 'contact'}
-- {name: 'Acompañamientos',    url: 'acompanamientos'}
+#- {name: 'Acompañamientos',    url: 'acompanamientos'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
