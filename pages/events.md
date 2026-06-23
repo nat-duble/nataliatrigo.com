@@ -2,34 +2,33 @@
 layout: page
 title: Eventos
 permalink: /events
+page_class: page-events
+hide_title: true
 ---
 
 <div class="event-section">
   <p class="event-period">Septiembre 2026</p>
   <div class="event">
-    <h2 class="event-title">20° Fiesta del Libro y la Cultura de Medellín</h2>
-    <p class="event-subtitle">11 — 20 de septiembre</p>
-    <p class="event-cities">Jardín Botánico · Medellín</p>
+    <p class="event-subtitle">20° Fiesta del Libro y la Cultura de Medellín</p>
+    <p class="event-cities">11 — 20 de septiembre &nbsp;·&nbsp; Jardín Botánico, Medellín</p>
   </div>
 </div>
 
-<img src="/assets/img/evento-madrid.jpg" alt="Presentación Madrid" class="event-photo">
+<img src="/assets/img/evento-barcelona-2.jpg" alt="Presentación Barcelona" class="event-photo" style="object-position: 85% top;">
 
 <div class="event-section">
   <p class="event-period">Agosto 2026</p>
   <div class="event">
-    <h2 class="event-title">El fin del verano</h2>
     <p class="event-subtitle">Lanzamiento en México</p>
     <p class="event-cities">Ciudad de México &nbsp;·&nbsp; Oaxaca &nbsp;·&nbsp; Puebla</p>
   </div>
 </div>
 
-<img src="/assets/img/evento-barcelona-2.jpg" alt="Presentación Barcelona" class="event-photo">
+<img src="/assets/img/evento-barcelona.jpg" alt="Presentación Barcelona" class="event-photo event-photo--reading">
 
 <div class="event-section">
   <p class="event-period">Mayo 2026</p>
   <div class="event">
-    <h2 class="event-title">El fin del verano</h2>
     <p class="event-subtitle">Lanzamiento en España</p>
     <ul class="event-dates">
       <li><span class="event-date">5 de mayo</span> Librería Olavide, Madrid</li>
@@ -40,4 +39,5 @@ permalink: /events
   </div>
 </div>
 
-<img src="/assets/img/evento-barcelona.jpg" alt="Presentación Barcelona" class="event-photo event-photo--reading">
+<img src="/assets/img/evento-madrid.jpg" alt="Presentación" class="event-photo">
+
