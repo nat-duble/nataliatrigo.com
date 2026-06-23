@@ -13,6 +13,8 @@ permalink: /events
   </div>
 </div>
 
+<img src="/assets/img/evento-madrid.jpg" alt="Presentación Madrid" class="event-photo">
+
 <div class="event-section">
   <p class="event-period">Agosto 2026</p>
   <div class="event">
