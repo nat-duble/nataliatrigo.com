@@ -1,11 +1,4 @@
 <head>
-  <title>
-    {% if page.title == "Home" %}
-      {{ site.title }}
-    {% else %}
-      {{ page.title }} | {{ site.title }}
-    {% endif %}
-  </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/main.css">
@@ -22,8 +15,14 @@
   <script type="text/javascript" async
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }}, Mexican writer
+    {% else %}
+      {{ page.title }} | {{ site.title }}
+    {% endif %}
+  </title>
+  <meta name="description" content="{{ site.description }}">
   <!-- Google Analytics -->
   {% include google-analytics.html %}
-  <!-- Use Jekyll SEO plugin -->
-  {% seo %}
 </head>

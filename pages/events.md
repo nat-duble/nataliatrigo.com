@@ -39,5 +39,4 @@ hide_title: true
   </div>
 </div>
 
-<img src="/assets/img/evento-rne.jpg" alt="Presentación" class="event-photo" style="object-position: center 58%;">
 
